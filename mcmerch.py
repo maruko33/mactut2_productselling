@@ -19,5 +19,6 @@ def mcmerchCalculator():
     arguments = parseArgument()
     tax = taxRate(province)
     print(arguments['price'] * arguments["quantity"] * (tax+1)
+    print("hello")
 
 mcmerchCalculator()
